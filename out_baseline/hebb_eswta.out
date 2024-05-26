@@ -1,0 +1,279 @@
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.hebb.config_base_hebb[eswta_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 0 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.hebb.config_base_hebb[eswta_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 4/20, with results: 
+top1-accuracy: 0.197
+top5-accuracy: 0.6807
+2.0% convergence epoch: 3/20
+1.0% convergence epoch: 4/20
+0.5% convergence epoch: 4/20
+0.2% convergence epoch: 4/20
+0.1% convergence epoch: 4/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[1_eswta_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[1_eswta_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for network 0...
+Model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 15/20, with results: 
+top1-accuracy: 0.6723
+top5-accuracy: 0.9648
+2.0% convergence epoch: 6/20
+1.0% convergence epoch: 10/20
+0.5% convergence epoch: 13/20
+0.2% convergence epoch: 15/20
+0.1% convergence epoch: 15/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[2_eswta_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[2_eswta_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for network 0...
+Model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 18/20, with results: 
+top1-accuracy: 0.773
+top5-accuracy: 0.9847
+2.0% convergence epoch: 12/20
+1.0% convergence epoch: 13/20
+0.5% convergence epoch: 15/20
+0.2% convergence epoch: 16/20
+0.1% convergence epoch: 18/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[3_eswta_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[3_eswta_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for network 0...
+Model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 18/20, with results: 
+top1-accuracy: 0.8147
+top5-accuracy: 0.9898
+2.0% convergence epoch: 13/20
+1.0% convergence epoch: 14/20
+0.5% convergence epoch: 15/20
+0.2% convergence epoch: 18/20
+0.1% convergence epoch: 18/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[4_eswta_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[4_eswta_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for network 0...
+Model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 15/20, with results: 
+top1-accuracy: 0.85
+top5-accuracy: 0.9903
+2.0% convergence epoch: 13/20
+1.0% convergence epoch: 13/20
+0.5% convergence epoch: 14/20
+0.2% convergence epoch: 14/20
+0.1% convergence epoch: 15/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[5_eswta_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.hebb.gdes_fc_on_hebb_layer_ft[5_eswta_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for network 0...
+Model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 14/20, with results: 
+top1-accuracy: 0.8559
+top5-accuracy: 0.9899
+2.0% convergence epoch: 12/20
+1.0% convergence epoch: 12/20
+0.5% convergence epoch: 12/20
+0.2% convergence epoch: 14/20
+0.1% convergence epoch: 14/20
+
+--------
+

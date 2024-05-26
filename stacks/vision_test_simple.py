@@ -2,8 +2,7 @@ import neurolab.params as P
 from configs.vision.meta import *
 
 
-# lrn_rules = ['hpca', 'eswta'] #['1wta', '5wta', 'eswta', 'pswta', 'hpca', 'ica']
-lrn_rules = ['1wta', '5wta', 'eswta', 'pswta', 'hpca', 'ica']
+lrn_rules = ['1wta', 'pswta', 'eswta'] #['1wta', '5wta', 'eswta', 'pswta', 'eswta', 'hpca', 'ica']
 layers = {'mnist': range(1, 6), 'cifar10': range(1, 6), 'cifar100': range(1, 6), 'tinyimagenet': range(1, 6), 'imagenet': [9]} #[5, 7, 9]}
 
 SEEDS1 = [0] #range(0, 5)

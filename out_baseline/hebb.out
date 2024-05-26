@@ -1,0 +1,42 @@
+Running on cuda:2
+
+#### CONFIGURATION: configs.vision.hebb.config_base_hebb[1wta_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 0 ****
+
+Experiment configuration: configs.vision.hebb.config_base_hebb[1wta_cifar10]
+Initializing experiment...
+Preparing dataset...
+Traceback (most recent call last):
+  File "/home/hwj/codes/HebbianLearning/runstack.py", line 15, in <module>
+    neurolab.runstack.main()
+  File "/home/hwj/codes/HebbianLearning/neurolab/runstack.py", line 46, in main
+    run_experiment(exp_details.get(P.KEY_STACK_CONFIG, args.config), exp_details.get(P.KEY_STACK_MODE, args.mode), exp_details.get(P.KEY_STACK_SEEDS, args.seeds), exp_details.get(P.KEY_STACK_TOKENS, args.tokens), exp_details.get(P.KEY_STACK_HPSEARCH, args.hpsearch), exp_details.get(P.KEY_STACK_HPSEEDS, args.hpseeds), exp_details.get(P.KEY_STACK_CHECKPOINT, args.checkpoint), exp_details.get(P.KEY_STACK_RESTART, args.restart), exp_details.get(P.KEY_STACK_BRANCH, args.branch))
+  File "/home/hwj/codes/HebbianLearning/neurolab/runexp.py", line 40, in run_experiment
+    launch_experiment(config=curr_config, checkpoint=checkpoint, restart=restart)
+  File "/home/hwj/codes/HebbianLearning/neurolab/experiment/experiment.py", line 458, in launch_experiment
+    experiment.prepare()
+  File "/home/hwj/codes/HebbianLearning/neurolab/experiment/vision.py", line 21, in prepare
+    self.load_dataset()
+  File "/home/hwj/codes/HebbianLearning/neurolab/experiment/vision.py", line 29, in load_dataset
+    self.data_manager = utils.retrieve(self.config.CONFIG_OPTIONS[P.KEY_DATA_MANAGER])(self.config)
+  File "/home/hwj/codes/HebbianLearning/neurolab/data/cifar10.py", line 15, in __init__
+    super().__init__(config)
+  File "/home/hwj/codes/HebbianLearning/neurolab/data/data.py", line 128, in __init__
+    self.train_set = self.load_split(self.get_train_split(transform=self.T_augm if self.AUGMENT_MANAGER is not None else self.T, num_samples=self.NUM_TRN_SAMPLES), shuffle=True)
+  File "/home/hwj/codes/HebbianLearning/neurolab/data/cifar10.py", line 32, in get_train_split
+    return Subset(CIFAR10(root=self.DATASET_FOLDER, train=True, download=True, transform=transform), self.indices[:num_samples])
+  File "/home/hwj/anaconda3/envs/cu121_torch/lib/python3.10/site-packages/torchvision/datasets/cifar.py", line 66, in __init__
+    self.download()
+  File "/home/hwj/anaconda3/envs/cu121_torch/lib/python3.10/site-packages/torchvision/datasets/cifar.py", line 137, in download
+    if self._check_integrity():
+  File "/home/hwj/anaconda3/envs/cu121_torch/lib/python3.10/site-packages/torchvision/datasets/cifar.py", line 132, in _check_integrity
+    if not check_integrity(fpath, md5):
+  File "/home/hwj/anaconda3/envs/cu121_torch/lib/python3.10/site-packages/torchvision/datasets/utils.py", line 58, in check_integrity
+    return check_md5(fpath, md5)
+  File "/home/hwj/anaconda3/envs/cu121_torch/lib/python3.10/site-packages/torchvision/datasets/utils.py", line 50, in check_md5
+    return md5 == calculate_md5(fpath, **kwargs)
+  File "/home/hwj/anaconda3/envs/cu121_torch/lib/python3.10/site-packages/torchvision/datasets/utils.py", line 45, in calculate_md5
+    md5.update(chunk)
+KeyboardInterrupt

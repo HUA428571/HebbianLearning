@@ -35,6 +35,8 @@ def main():
 			except:
 				print("Warning: selected device " + device + " not available. Switching to cpu.")
 				device = 'cpu'
+
+		print(f'Running on {device}')
 		
 		# Override default params
 		P.DEVICE = device

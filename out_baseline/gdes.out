@@ -1,0 +1,274 @@
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.gdes.config_base_gdes[cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 0 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.gdes.config_base_gdes[cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 20/20, with results: 
+top1-accuracy: 0.8598
+top5-accuracy: 0.9905
+2.0% convergence epoch: 13/20
+1.0% convergence epoch: 14/20
+0.5% convergence epoch: 14/20
+0.2% convergence epoch: 15/20
+0.1% convergence epoch: 15/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.gdes.gdes_fc_on_gdes_layer[1_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.gdes.gdes_fc_on_gdes_layer[1_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for pre-network 0...
+Pre-network model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 19/20, with results: 
+top1-accuracy: 0.6178
+top5-accuracy: 0.9516
+2.0% convergence epoch: 9/20
+1.0% convergence epoch: 10/20
+0.5% convergence epoch: 11/20
+0.2% convergence epoch: 12/20
+0.1% convergence epoch: 14/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.gdes.gdes_fc_on_gdes_layer[2_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.gdes.gdes_fc_on_gdes_layer[2_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for pre-network 0...
+Pre-network model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 17/20, with results: 
+top1-accuracy: 0.6748
+top5-accuracy: 0.9677
+2.0% convergence epoch: 8/20
+1.0% convergence epoch: 9/20
+0.5% convergence epoch: 10/20
+0.2% convergence epoch: 11/20
+0.1% convergence epoch: 13/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.gdes.gdes_fc_on_gdes_layer[3_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.gdes.gdes_fc_on_gdes_layer[3_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for pre-network 0...
+Pre-network model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 15/20, with results: 
+top1-accuracy: 0.7423
+top5-accuracy: 0.9801
+2.0% convergence epoch: 8/20
+1.0% convergence epoch: 9/20
+0.5% convergence epoch: 10/20
+0.2% convergence epoch: 12/20
+0.1% convergence epoch: 13/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.gdes.gdes_fc_on_gdes_layer[4_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.gdes.gdes_fc_on_gdes_layer[4_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for pre-network 0...
+Pre-network model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 13/20, with results: 
+top1-accuracy: 0.8409
+top5-accuracy: 0.9907
+2.0% convergence epoch: 2/20
+1.0% convergence epoch: 3/20
+0.5% convergence epoch: 5/20
+0.2% convergence epoch: 9/20
+0.1% convergence epoch: 10/20
+
+--------
+
+Running on cuda:1
+
+#### CONFIGURATION: configs.vision.gdes.gdes_fc_on_gdes_layer[5_cifar10] (mode: train) ####
+
+
+**** ITERATION ID: 300 ****
+
+----
+Recovering experiment state from checkpoint 20
+
+Experiment configuration: configs.vision.gdes.gdes_fc_on_gdes_layer[5_cifar10]
+Initializing experiment...
+Preparing dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Dataset ready!
+Preparing network...
+Searching for available saved model for pre-network 0...
+Pre-network model loaded!
+Network ready!
+Preparing optimizer...
+Optimizer ready!
+Experiment initialized!
+Restoring saved state from checkpoint 20...
+Recovering network state...
+<All keys matched successfully>
+Network state recovered!
+Recovering optimization state...
+Optimization state recovered!
+State restored from checkpoint 20!
+
+Resuming training from checkpoint 20...
+
+Finished!
+Best epoch: 2/20, with results: 
+top1-accuracy: 0.8604
+top5-accuracy: 0.9898
+2.0% convergence epoch: 1/20
+1.0% convergence epoch: 1/20
+0.5% convergence epoch: 1/20
+0.2% convergence epoch: 1/20
+0.1% convergence epoch: 2/20
+
+--------
+
