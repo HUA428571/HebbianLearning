@@ -435,7 +435,7 @@ class HebbianConv2d(nn.Module):
         self.out_t = out_t
         self.out_bias = out_bias
         self.competitive = competitive  # 如果为 None 则为恒等映射
-        if self.competitive is not None and self.competitive.out_channels != out_channels:
+        if self.competitive.out_channels is not None and self.competitive.out_channels != out_channels:
             raise ValueError("Argument out_channels: " + str(out_channels) + " and competitive.out_channels: " + str(
                 self.competitive.out_channels) + " must match")
 

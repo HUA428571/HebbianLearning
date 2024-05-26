@@ -14,3 +14,4 @@ nohup python runstack.py --stack stacks.vision.hebb[pswta_mnist] --mode train --
 
 nohup python runstack.py --stack stacks.vision.hebb[1wta_mnist] --mode train --device cuda:2 > hebb_1wta_mnist.out
 
+python runexp.py --config configs.HuaCL.pretrain.config_base_hebb[pswta_cifar10] --mode train --device cuda:2
