@@ -35,11 +35,11 @@ for ds in datasets:  # 遍历所有数据集
 				P.KEY_TOT_TRN_SAMPLES: tot_trn_samples[ds],  # 训练样本总数
 				P.KEY_BATCHSIZE: batch_sizes[ds],  # 批量大小
 				P.KEY_INPUT_SHAPE: input_shapes[ds],  # 输入形状
-				P.KEY_NUM_EPOCHS: 20,  # 训练轮数
+				P.KEY_NUM_EPOCHS: 1,  # 训练轮数
 				P.KEY_OPTIM_MANAGER: 'neurolab.optimization.optim.SGDOptimManager',  # 优化管理器
 				P.KEY_CRIT_METRIC_MANAGER: ['neurolab.optimization.metric.TopKAccMetricManager',
 											'neurolab.optimization.metric.TopKAccMetricManager'],  # 评估指标管理器
-				P.KEY_TOPKACC_K: [1, 5],  # Top-K 精度
+				P.KEY_TOPKACC_K: [1],  # Top-K 精度
 				P.KEY_LEARNING_RATE: hebb_lrn_rates[lrn_rule_keys[lrn_rule]][ds],  # 学习率
 				P.KEY_LOCAL_LRN_RULE: lrn_rule_keys[lrn_rule],  # 局部学习规则
 				PP.KEY_COMPETITIVE_ACT: lrn_rule_competitive_act[lrn_rule],  # 竞争激活
